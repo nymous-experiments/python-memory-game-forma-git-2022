@@ -21,9 +21,9 @@ def choose_mode():
 3. Sinon elles seront masquées.
 4. Le jeu se termine lorsque toutes les cartes sont visibles.
 4.5 Il y a 4 niveaux de difficulté.
-5. A new game starts automatically.
-6. Press ENTER to change mode.
-7. Press ESCAPE to exit.
+5. Une nouvelle partie commence automatiquement.
+6. Appuyez sur ENTREE pour changer de mode.
+7. Appuyez sur ECHAP pour quitter.
         """,
         width="60",
         bg="misty rose",
