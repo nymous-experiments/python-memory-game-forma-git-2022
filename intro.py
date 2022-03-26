@@ -20,6 +20,7 @@ def choose_mode():
 2. Si les deux cartes sont identiques, elle resteront face visibles.
 3. Sinon elles seront masquées.
 4. Le jeu se termine lorsque toutes les cartes sont visibles.
+4.5 Il y a 4 niveaux de difficulté.
 5. Une nouvelle partie commence automatiquement.
 6. Appuyez sur ENTREE pour changer de mode.
 7. Appuyez sur ECHAP pour quitter.
@@ -90,13 +91,13 @@ def choose_level():
     )
     lvl2.pack(side=LEFT)
     # TODO: Ajouter un mode très difficile
-    # lvl3 = Button(
-    #     text="DIFFICILE",
-    #     width="15",
-    #     height="5",
-    #     bg="lavender",
-    #     command=lambda rows=5, cols=8: clicked(rows, cols, level_root, chosen_level),
-    # )
-    # lvl3.pack(side=LEFT)
+    lvl3 = Button(
+        text="DIFFICILE",
+        width="15",
+        height="5",
+        bg="lavender",
+        command=lambda rows=5, cols=8: clicked(rows, cols, level_root, chosen_level),
+    )
+    lvl3.pack(side=LEFT)
     level_root.mainloop()
     return chosen_level
