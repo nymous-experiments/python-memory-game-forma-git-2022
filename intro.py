@@ -20,6 +20,7 @@ def choose_mode():
 2. Si les deux cartes sont identiques, elle resteront face visibles.
 3. Sinon elles seront masquées.
 4. Le jeu se termine lorsque toutes les cartes sont visibles.
+4.5 Il y a 4 niveaux de difficulté.
 5. A new game starts automatically.
 6. Press ENTER to change mode.
 7. Press ESCAPE to exit.
